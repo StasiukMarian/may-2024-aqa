@@ -16,38 +16,6 @@
         <selenide>7.7.3</selenide>
     </properties>
 
-    <!--    <dependencies>-->
-    <!--        <dependency>-->
-    <!--            <groupId>org.junit.jupiter</groupId>-->
-    <!--            <artifactId>junit-jupiter-api</artifactId>-->
-    <!--            <version>5.12.0</version>-->
-    <!--            <scope>test</scope>-->
-    <!--        </dependency>-->
-    <!--        <dependency>-->
-    <!--            <groupId>org.junit.jupiter</groupId>-->
-    <!--            <artifactId>junit-jupiter-engine</artifactId>-->
-    <!--            <version>5.12.0</version>-->
-    <!--            <scope>test</scope>-->
-    <!--        </dependency>-->
-    <!--    </dependencies>-->
-
-    <!--    <profiles>-->
-    <!--        <profile>-->
-    <!--            <id>gui-tests</id>-->
-    <!--            <build>-->
-    <!--                <plugins>-->
-    <!--                    <plugin>-->
-    <!--                        <groupId>org.apache.maven.plugins</groupId>-->
-    <!--                        <artifactId>maven-surefire-plugin</artifactId>-->
-    <!--                        <version>2.20</version>-->
-    <!--                        <configuration>-->
-    <!--                            <groups>guitests</groups>-->
-    <!--                        </configuration>-->
-    <!--                    </plugin>-->
-    <!--                </plugins>-->
-    <!--            </build>-->
-    <!--        </profile>-->
-    <!--    </profiles>-->
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
@@ -63,7 +31,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.11.0</version>
+            <version>${testng}</version>
             <scope>compile</scope>
         </dependency>
 
@@ -74,7 +42,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.20</version>
+                <version>3.5.0</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/main/resources/testSuite.xml</suiteXmlFile>
