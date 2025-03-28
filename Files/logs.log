@@ -1,0 +1,75 @@
+19:58:41 | INFO | Utils:112                                | [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2023.2\temp-testng-customsuite.xml
+
+19:58:41 | WARN | SelenideLogger:168                       | No listeners found for thread '1'
+19:58:41 | INFO | SimpleReport:49                          | Report for config
++----------------------+---------+------------+------------+
+| Element              | Subject | Status     | ms.        |
++----------------------+---------+------------+------------+
++----------------------+---------+------------+------------+
+
+19:58:42 | WARN | SelenideLogger:173                       | No listener 'simpleReport' found for thread '1' (it has 0 listeners)
+19:58:42 | INFO | WebDriverThreadLocalContainer:129        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+19:58:44 | INFO | WebDriverFactory:122                     | Selenide 7.7.3 / Selenium 4.29.0 / chrome 134.0.6998.118 windows
+19:58:44 | INFO | WebDriverThreadLocalContainer:168        | Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (cb828e5d9ae832970858efcef3dde24e)
+19:58:46 | INFO | SimpleReport:49                          | Report for login
++----------------------+----------------------------+------------+------------+
+| Element              | Subject                    | Status     | ms.        |
++----------------------+----------------------------+------------+------------+
+| open                 | https://www.saucedemo.com/ | PASS       | 4201       |
+|   webdriver          | create()                   | PASS       | 2847       |
++----------------------+----------------------------+------------+------------+
+
+19:58:46 | WARN | SelenideLogger:173                       | No listener 'simpleReport' found for thread '1' (it has 0 listeners)
+19:58:50 | INFO | SimpleReport:49                          | Report for customFrameworkTest
++-----------------------------------------------------+------------------------------------------------------------------------+------------+------------+
+| Element                                             | Subject                                                                | Status     | ms.        |
++-----------------------------------------------------+------------------------------------------------------------------------+------------+------------+
+| By.xpath: //input[@placeholder='Username']          | should be(input condition: empty: attribute value="" and exact text "" and visible) | PASS       | 209        |
+| By.xpath: //input[@placeholder='Username']          | append(standard_user)                                                  | PASS       | 165        |
+| .input_error.form_input[id=password]                | should be(input condition: empty: attribute value="" and exact text "" and visible) | PASS       | 63         |
+| .input_error.form_input[id=password]                | append(secret_sauce)                                                   | PASS       | 103        |
+| #login-button                                       | should be(clickable: interactable and enabled)                         | PASS       | 51         |
+| #login-button                                       | click()                                                                | PASS       | 235        |
+| By.xpath: //div[@class='inventory_item_name ']      | should be(size(6))                                                     | PASS       | 34         |
+| By.xpath: (//div[@class='inventory_item_name '])[1] | should be(clickable: interactable and enabled)                         | PASS       | 94         |
+| By.xpath: (//div[@class='inventory_item_name '])[1] | click()                                                                | PASS       | 239        |
+| #back-to-products                                   | should be(clickable: interactable and enabled)                         | PASS       | 61         |
+| #back-to-products                                   | click()                                                                | PASS       | 142        |
+| By.xpath: (//div[@class='inventory_item_name '])[2] | should be(clickable: interactable and enabled)                         | PASS       | 56         |
+| By.xpath: (//div[@class='inventory_item_name '])[2] | click()                                                                | PASS       | 135        |
+| #back-to-products                                   | should be(clickable: interactable and enabled)                         | PASS       | 40         |
+| #back-to-products                                   | click()                                                                | PASS       | 136        |
+| By.xpath: (//div[@class='inventory_item_name '])[3] | should be(clickable: interactable and enabled)                         | PASS       | 72         |
+| By.xpath: (//div[@class='inventory_item_name '])[3] | click()                                                                | PASS       | 172        |
+| #back-to-products                                   | should be(clickable: interactable and enabled)                         | PASS       | 57         |
+| #back-to-products                                   | click()                                                                | PASS       | 159        |
+| By.xpath: (//div[@class='inventory_item_name '])[4] | should be(clickable: interactable and enabled)                         | PASS       | 62         |
+| By.xpath: (//div[@class='inventory_item_name '])[4] | click()                                                                | PASS       | 186        |
+| #back-to-products                                   | should be(clickable: interactable and enabled)                         | PASS       | 57         |
+| #back-to-products                                   | click()                                                                | PASS       | 154        |
+| By.xpath: (//div[@class='inventory_item_name '])[5] | should be(clickable: interactable and enabled)                         | PASS       | 71         |
+| By.xpath: (//div[@class='inventory_item_name '])[5] | click()                                                                | PASS       | 153        |
+| #back-to-products                                   | should be(clickable: interactable and enabled)                         | PASS       | 49         |
+| #back-to-products                                   | click()                                                                | PASS       | 133        |
+| By.xpath: (//div[@class='inventory_item_name '])[6] | should be(clickable: interactable and enabled)                         | PASS       | 53         |
+| By.xpath: (//div[@class='inventory_item_name '])[6] | click()                                                                | PASS       | 159        |
+| #back-to-products                                   | should be(clickable: interactable and enabled)                         | PASS       | 41         |
+| #back-to-products                                   | click()                                                                | PASS       | 146        |
++-----------------------------------------------------+------------------------------------------------------------------------+------------+------------+
+
+19:58:50 | WARN | SelenideLogger:173                       | No listener 'simpleReport' found for thread '1' (it has 0 listeners)
+19:58:50 | INFO | SimpleReport:49                          | Report for cleanWebDriver
++----------------------+---------+------------+------------+
+| Element              | Subject | Status     | ms.        |
++----------------------+---------+------------+------------+
++----------------------+---------+------------+------------+
+
+19:58:50 | WARN | SelenideLogger:173                       | No listener 'simpleReport' found for thread '1' (it has 0 listeners)
+19:58:50 | INFO | SimpleReport:49                          | Report for tearDown
++----------------------+---------+------------+------------+
+| Element              | Subject | Status     | ms.        |
++----------------------+---------+------------+------------+
++----------------------+---------+------------+------------+
+
+19:58:50 | INFO | CloseDriverCommand:24                    | Hold browser open: 36 -> ChromeDriver: chrome on windows (cb828e5d9ae832970858efcef3dde24e)
