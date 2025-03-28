@@ -4,8 +4,7 @@
 <suite name="Regression suite">
     <test name="First tests">
         <packages>
-            <package name="lessons.lesson1.*"/>
-            <package name="lessons.lesson2.*"/>
+            <package name="lessons.lesson7.*"/>
         </packages>
     </test>
 </suite>

@@ -9,6 +9,7 @@ public class Pages {
     private static CheckoutYourInformationPage checkoutYourInformationPage;
     private static CheckoutOverviewPage checkoutOverviewPage;
     private static CheckoutCompletePage checkoutCompletePage;
+    private static DetailItemPage detailItemPage;
 
     public static LoginPage loginPage() {
         if (loginPage == null) {
@@ -50,6 +51,13 @@ public class Pages {
             checkoutCompletePage = new CheckoutCompletePage();
         }
         return checkoutCompletePage;
+    }
+
+    public static DetailItemPage detailItemPage() {
+        if (detailItemPage == null) {
+            detailItemPage = new DetailItemPage();
+        }
+        return detailItemPage;
     }
 
 }
